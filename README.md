@@ -72,9 +72,36 @@ postman/
 
 ## Entity Relationship Diagram
 ```mermaid
-ergraph TD
-A[User] -->|1..*| B[BorrowRecord]
-C[Book] -->|1..*| B[BorrowRecord]
+Entity Relationship Diagram
+
+```mermaid
+erDiagram
+    USER {
+        Long id
+        String name
+        String email
+        String password
+        String role
+    }
+
+    BOOK {
+        Long id
+        String title
+        String author
+        String isbn
+        Integer availableCopies
+    }
+
+    BORROW_RECORD {
+        Long id
+        LocalDate borrowDate
+        LocalDate dueDate
+        LocalDate returnDate
+        String status
+    }
+
+    USER ||--o{ BORROW_RECORD : borrows
+    BOOK ||--o{ BORROW_RECORD : borrowed_in
 ```
 
 ## API Endpoints
