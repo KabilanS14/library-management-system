@@ -136,6 +136,7 @@ erDiagram
 ### Swagger UI
 
 ![Swagger UI](screenshots/swagger.png)
+
 ## Installation Guide
 1. Install Java 17 and Maven.
 2. Create a MySQL database named library_management_db.
