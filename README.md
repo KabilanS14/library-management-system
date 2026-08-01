@@ -71,8 +71,6 @@ postman/
 - BorrowRecord
 
 ## Entity Relationship Diagram
-```mermaid
-Entity Relationship Diagram
 
 ```mermaid
 erDiagram
