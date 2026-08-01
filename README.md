@@ -128,9 +128,14 @@ erDiagram
 4. Spring Security validates the token for secured routes.
 
 ## Screenshots
-- Placeholder: screenshots/architecture.png
-- Placeholder: screenshots/swagger.png
 
+### Project Architecture
+
+![Project Architecture](screenshots/architecture.png)
+
+### Swagger UI
+
+![Swagger UI](screenshots/swagger.png)
 ## Installation Guide
 1. Install Java 17 and Maven.
 2. Create a MySQL database named library_management_db.
